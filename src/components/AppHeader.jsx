@@ -3,9 +3,7 @@ export default function AppHeader() {
 
     return (
         <>
-            <h1>
-                Hello World!
-            </h1>
+            <h1>Task Maager</h1>
         </>
     )
 }
