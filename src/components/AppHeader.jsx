@@ -3,7 +3,10 @@ export default function AppHeader() {
 
     return (
         <>
-            <h1>Task Maager</h1>
+            <header>
+                <h1>Task Manager</h1>
+            </header>
+
         </>
     )
 }

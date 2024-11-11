@@ -84,26 +84,25 @@ export default function AppMain() {
     console.log(uncompletedTasks); */
     return (
         <>
-            <h2>Current Tasks (4)</h2>
             <section className="tasks">
+                <h2>Current Tasks (4)</h2>
                 <ul>
                     {uncompletedTasks.map(task => (
                         <li key={task.id}>
-                            {task.title} <br />
+                            <strong> {task.title} </strong> <span className="bg">{task.state}</span><br />
                             Priority: {task.priority}<br />
                             Est. time {task.estimatedTime}<br />
-                            {task.state}
                         </li>
                     ))}
                 </ul>
+                <hr />
                 <h2>Completed Tasks (6)</h2>
                 <ul>
                     {completedTasks.map(task => (
                         <li key={task.id}>
-                            {task.title} <br />
+                            <strong> {task.title} </strong> <span className="bg">{task.state}</span> <br />
                             Priority: {task.priority}<br />
                             Est. time {task.estimatedTime}<br />
-                            {task.state}
                         </li>
                     ))}
                 </ul>

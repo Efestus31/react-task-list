@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: #7fffd3;
+    padding: 2rem
+}
+
+section {
+    margin: 2rem;
+
+    h2 {
+        padding-bottom: 1.5rem;
+    }
+
+    hr {
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+ul {
+    list-style: none;
+
+    li {
+        margin-top: 10px;
+        line-height: 1.5rem;
+
+        .bg {
+            background-color: #d2691e;
+            padding: 7px 10px;
+            color: white;
+        }
+    }
+}
